@@ -53,7 +53,7 @@ function connectionApi(data){
                 return
             }
             
-            location.href = window.open("https://www.google.com")
+            location.href = window.open("https://www.google.com", "Esto es un test", "noopener")
 
             console.log(e)
         })
